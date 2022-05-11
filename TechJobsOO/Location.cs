@@ -19,6 +19,7 @@ namespace TechJobsOO
         {
             Value = value;
         }
+
         public override bool Equals(object obj)
         {
             return obj is Location location &&
